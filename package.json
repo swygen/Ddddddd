@@ -1,16 +1,12 @@
 {
-  "name": "telegram-premium-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Premium Telegram bot with captcha, referral, withdraw, language switch and admin features.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["telegram", "bot", "referral", "withdraw", "multi-language", "captcha"],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "node-telegram-bot-api": "^0.61.0"
+    "telegraf": "^4.12.2",
+    "dotenv": "^16.0.3"
   }
 }
